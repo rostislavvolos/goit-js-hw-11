@@ -3,7 +3,7 @@
   "version": "1.1.0",
   "description": "",
   "main": "index.js",
-  "homepage": "https://rostislavvolos.github.io/goit-js-hw-11/",
+  "homepage": "https://rostislavvolos.github.io/goit-js-hw-11",
   "scripts": {
     "dev": "parcel src/*.html",
     "build": "parcel build src/*.html --public-url /goit-js-hw-11/"
@@ -26,7 +26,9 @@
     "sass": "^1.32.8"
   },
   "dependencies": {
+    "axios": "^0.24.0",
     "lodash.debounce": "^4.0.8",
-    "notiflix": "^3.2.2"
+    "notiflix": "^3.2.2",
+    "simplelightbox": "^2.10.1"
   }
 }
